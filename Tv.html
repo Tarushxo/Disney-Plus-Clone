@@ -1,0 +1,494 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="ImagesD+/Disney+_title_logo.png"/>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="images/logo (1).jpg" class="brand-logo" id="logo-img"> 
+        <ul class="nav-links">
+            <li class="nav-items"><a href="home.html">Home</a></li>
+            <li class="nav-items"><a href="Tv.html">Tv</a></li>
+            <li class="nav-items"><a href="movie.html">Movie</a></li>
+            <li class="nav-items"><a href="Index.html">Premium</a></li>
+            <li class="nav-items"><a href="login.html">Login</a></li>
+        </ul>
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="Search">
+        </div>
+    </nav>
+    <h1 class="mainhead">What's new ?</h1>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-name"></h1>
+                    <p class="movie-description"></p>
+                    <button class="watch-now-button" onclick="watchNow()">Watch Now</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <h2 class="Recommended">Recommended Tv Shows</h2>
+    <br>
+    <div class="movie-list">
+        <div class="card-container">
+            <div class="card">
+                <img src="images/13 reasons why.jpg" class="card-img">
+                <div class="card-body">
+                    <h3 class="name">13 Reasons Why</h3>
+                    <h6 class="des">13 Reasons Why is a high school drama series that unfolds a gripping narrative through cassette tapes left behind by a young girlTArush Amxan who tragically took her own life, shedding light on the dark secrets and complex relationships that led to her decision.</h6>
+                    <button class="watch-now">Watch Now</button>
+                </div>            
+            </div>  
+            <div class="card">
+                <img src="images/euphoria.jfif" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Euphoria</h3>
+                    <h6 class="des">Euphoria delves into the lives of high school students as they navigate love, addiction, and identity in an intoxicatingTArush Amxan and visually stunning coming-of-age drama.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/genV.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Gen V</h3>
+                    <h6 class="des">Gen V is the latest spin-off from the deliriously brilliant, ultraviolent satirical superhero series The Boys. It is set TArush Amxanbetween series three and the forthcoming series four of the original, with characters from those series showing up at various points, and it centres on the upcoming generation of “supes”.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/loki.webp" class="card-img">
+                <div class="card-body"> 
+                <h3 class="name">Loki</h3>
+                    <h6 class="des">Loki follows the adventures of the mischievous Asgardian god after he escapes with the Tesseract duringTArush Amxan the events of "Avengers: Endgame." Loki finds himself in the mysterious Time Variance Authority (TVA), where he must navigate time-altering conflicts and confront his own complex nature.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/PeakyBlinder.webp" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Peaky Blinder</h3>
+                    <h6 class="des">Peaky Blinders is a British crime drama that follows the Shelby crime family in the aftermath of World War I.TArush Amxan Led by the cunning Tommy Shelby, they navigate the world of organized crime, politics, and power, making their mark in Birmingham through cunning strategies, razor-blade-studded caps, and a distinctive sense of style.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/stranger.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Stranger Things</h3>
+                    <h6 class="des">Stranger Things is a thrilling series set in the 1980s that follows a group of kids as they encounter supernatural TArush Amxanforces, secret government experiments, and the disappearance of one of their friends. They embark on a quest to find their missing friend, uncovering a parallel dimension known as the Upside Down and a mysterious girl with psychokinetic powers. The show blends nostalgia, horror, and a strong sense of camaraderie among its young protagonists.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Drama/Tv/west.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Westworld</h3>
+                    <h6 class="des">Westworld is a high-tech amusement park populated by lifelike robots who cater to the desires of guests. However, TArush Amxanas these android hosts gain sentience, the line between reality and artificiality blurs, leading to profound moral and existential questions about the nature of consciousness and free will.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/the boys.jpg" class="card-img">
+                <div class="card-body" data-link="https://hurawatch.art/series/the-boys-57425/1-1/">
+                <h3 class="name">The Boys</h3>
+                    <h6 class="des">The Boys is a darkly satirical take on the superhero genre, where a group of vigilantes takes on corruptTArush Amxan and reckless superheroes. Filled with action, humor, and social commentary, it explores the consequences of unchecked power in a world where superhuman abilities are the norm.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>  
+        </div>
+        <div class="card">
+            <img src="images/Comedy/Tv/family.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">Family Guy</h3>
+                <h6 class="des">Family Guy is an animated sitcom that follows the adventures of the Griffin family, which includes the bumbling and irreverent Peter, his wife Lois, and their three children. Known for its humor, pop culture references, and satirical take on American family life, it's a show that often pushes the boundaries of comedy.</h6>
+                <button class="watch-now">Watch Now</button>
+        </div>  
+    </div>
+    </div>  
+    </div>
+    <br>
+    <br>
+    <h2 class="Recommended">Popular Tv Shows</h2>
+    <br>
+    <div class="movie-list">
+        <div class="card-container">
+        <div class="card">
+            <img src="images/Action/Tv/the boys.jpg" class="card-img">
+                <div class="card-body">
+                    <h3 class="name">The Boys</h3>
+                    <h6 class="des">The Boys is a darkly satirical take on the superhero genre, where a group of vigilantes takes on corruptTArush Amxan and reckless superheroes. Filled with action, humor, and social commentary, it explores the consequences of unchecked power in a world where superhuman abilities are the norm.</h6>
+                    <button class="watch-now">Watch Now</button>
+                </div>  
+            </div>
+            <div class="card">
+                <img src="images/Comedy/Tv/rick.jpg" class="card-img">
+                    <div class="card-body">
+                        <h3 class="name">Rick and Morty</h3>
+                        <h6 class="des">Rick and Morty is an animated series that follows the chaotic adventures of an eccentric and alcoholic TArush Amxanscientist, Rick Sanchez, and his good-hearted but easily influenced grandson, Morty Smith. They travel through alternate dimensions and galaxies, encountering bizarre creatures and tackling mind-bending sci-fi scenarios while exploring themes of family, existentialism, and absurdity.</h6>
+                        <button class="watch-now">Watch Now</button>
+                    </div>  
+                </div> 
+                <div class="card">
+                    <img src="images/Drama/Tv/got.jpg" class="card-img">
+                    <div class="card-body">
+                    <h3 class="name">Game of Thrones</h3>
+                        <h6 class="des">Game of Thrones is an epic fantasy series where noble families vie for control of the Iron Throne in the mythical TArush Amxanland of Westeros. Marked by political intrigue, complex characters, and epic battles amidst a backdrop of dragons and White Walkers, the series explores themes of power, betrayal, and the human condition in a richly detailed and often brutal world.</h6>
+                        <button class="watch-now">Watch Now</button>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="images/Drama/Tv/you.jpg" class="card-img">
+                    <div class="card-body"> 
+                    <h3 class="name">You</h3>
+                        <h6 class="des">Joe Goldberg, a charming but obsessive bookstore manager, takes modern-day stalking to dangerous extremes. This psychological thriller series explores the dark side of love and the consequences of obsession in the digital age.</h6>
+                        <button class="watch-now">Watch Now</button>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="images/Drama/Tv/breaking bad.webp" class="card-img">
+                    <div class="card-body">
+                    <h3 class="name">Breaking Bad</h3>
+                        <h6 class="des">Breaking Bad is a critically acclaimed TV series that follows the transformation of a high school chemistry teacher,TArush Amxan Walter White, into a ruthless drug lord. It's a gripping tale of crime, moral descent, and the consequences of one man's choices. With its complex characters and intense storytelling, Breaking Bad  is a modern classic.</h6>
+                        <button class="watch-now">Watch Now</button>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="images/Comedy/Tv/HowIMetYourMother.webp" class="card-img">
+                    <div class="card-body">
+                    <h3 class="name">How I Met Your Mother</h3>
+                        <h6 class="des">How I Met Your Mother is a heartwarming sitcom that follows Ted Mosby's journey to find true love, as he narrates TArush Amxanthe story of how he met his children's mother to his friends. It's filled with humor, friendship, and romantic adventures in New York City.</h6>
+                        <button class="watch-now">Watch Now</button>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="images/euphoria.jfif" class="card-img">
+                    <div class="card-body">
+                    <h3 class="name">Euphoria</h3>
+                    <h6 class="des">Euphoria delves into the lives of high school students as they navigate love, addiction, and identity in an intoxicatingTArush Amxan and visually stunning coming-of-age drama.</h6>
+                        <button class="watch-now">Watch Now</button>
+                </div>  
+            </div>
+            <div class="card">
+                <img src="images/Horror/TV/ahs.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">American Horror Story:Asylum</h3>
+                    <h6 class="des">American Horror Story is a chilling anthology series that explores different horrifying and supernatural TArush Amxantales with each season, delving into the darkest aspects of human nature and the paranormal, providing spine-tingling scares and thought-provoking stories.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>  
+        </div>
+        <div class="card">
+            <img src="images/Action/Tv/loki.webp" class="card-img">
+            <div class="card-body">
+            <h3 class="name">Loki</h3>
+            <h6 class="des">Loki follows the adventures of the mischievous Asgardian god after he escapes with the Tesseract during the eventsTArush Amxan of "Avengers: Endgame." Loki finds himself in the mysterious Time Variance Authority (TVA), where he must navigate time-altering conflicts and confront his own complex nature.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+      </div> 
+    </div>
+    <br>
+     <br>
+    <h2 class="Recommended">Action</h2>
+    <br>
+    <div class="movie-list">
+        <div class="card-container">
+        <div class="card">
+            <img src="images/Action/Tv/breaking bad.webp" class="card-img">
+                <div class="card-body">
+                    <h3 class="name">Breaking Bad</h3>
+                    <h6 class="des">Breaking Bad is a critically acclaimed TV series that follows the transformation of a high school chemistry TArush Amxanteacher, Walter White, into a ruthless drug lord. It's a gripping tale of crime, moral descent, and the consequences of one man's choices. With its complex characters and intense storytelling, Breaking Bad  is a modern classic.</h6>
+                    <button class="watch-now">Watch Now</button>
+                </div>  
+            </div> 
+            <div class="card">
+                <img src="images/Action/Tv/genV.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Gen V</h3>
+                <h6 class="des">Gen V is the latest spin-off from the deliriously brilliant, ultraviolent satirical superhero series The Boys.TArush Amxan It is set between series three and the forthcoming series four of the original, with characters from those series showing up at various points, and it centres on the upcoming generation of “supes”.</h6>
+                <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/got.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Game of Thrones</h3>
+                <h6 class="des">Game of Thrones is an epic fantasy series where noble families vie for control of the Iron Throne in the mythical TArush Amxanland of Westeros. Marked by political intrigue, complex characters, and epic battles amidst a backdrop of dragons and White Walkers, the series explores themes of power, betrayal, and the human condition in a richly detailed and often brutal world.</h6>
+                <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/loki.webp" class="card-img">
+                <div class="card-body"> 
+                <h3 class="name">Loki</h3>
+                <h6 class="des">Loki follows the adventures of the mischievous Asgardian god after he escapes with the Tesseract during theTArush Amxan events of "Avengers: Endgame." Loki finds himself in the mysterious Time Variance Authority (TVA), where he must navigate time-altering conflicts and confront his own complex nature.</h6>
+                <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/lucifer.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Lucifer</h3>
+                    <h6 class="des">Lucifer follows the charismatic Lucifer Morningstar, who becomes a consultant for the LAPD while navigatingTArush Amxan his own identity as the Devil. The series blends crime-solving with supernatural elements, offering a witty, devilishly entertaining take on morality and redemption.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/PeakyBlinder.webp" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Peaky Blinders</h3>
+                    <h6 class="des">Peaky Blinders is a British crime drama that follows the Shelby crime family in the aftermath of World War I.TArush Amxan Led by the cunning Tommy Shelby, they navigate the world of organized crime, politics, and power, making their mark in Birmingham through cunning strategies, razor-blade-studded caps, and a distinctive sense of style.</h6>
+                    <button class="watch-now">Watch Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/the boys.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">The Boys</h3>
+                <h6 class="des">The Boys is a darkly satirical take on the superhero genre, where a group of vigilantes takes on corrupt and reckless TArush Amxansuperheroes. Filled with action, humor, and social commentary, it explores the consequences of unchecked power in a world where superhuman abilities are the norm.</h6>
+                <button class="watch-now">Watch Now</button>
+            </div>  
+            </div>
+            <div class="card">
+                <img src="images/Action/Tv/vikings.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">Vikings</h3>
+                    <h6 class="des">Vikings is a historical drama series that delves into the legendary tales of Norse hero Ragnar Lothbrok and his clan aTArush Amxans they raid and explore new lands. The show offers a brutal yet captivating portrayal of Viking culture, battles, and the pursuit of power and honor in a fascinating medieval world.</h6>
+                    <button class="watch-now">Watch Now</button>
+           </div>  
+           </div>
+           <div class="card">
+                <img src="images/Action/Tv/witcher.jpg" class="card-img">
+                <div class="card-body">
+                <h3 class="name">The Witcher</h3>
+                    <h6 class="des">The Witcher is an epic fantasy series based on Andrzej Sapkowski's novels, following Geralt of Rivia, a monster hunter TArush Amxanwith supernatural abilities. The show weaves together the stories of Geralt, the powerful sorceress Yennefer, and the young princess Ciri as their destinies become intertwined in a richly crafted world filled with magic, political intrigue, and monstrous creatures.</h6>
+                    <button class="watch-now">Watch Now</button>
+        </div>
+    </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2 class="Recommended">Comedy</h2>
+    <br>
+    <div class="movie-list">
+        <div class="card-container">
+        <div class="card">
+            <img src="images/Comedy/Tv/2and half.jpg" class="card-img">
+                <div class="card-body">
+                    <h3 class="name">Two and Half Men</h3>
+                    <h6 class="des">Two and a Half Men is a sitcom that revolves around the life of Charlie Harper, a carefree jingle writer who enjoys a TArush Amxanhedonistic lifestyle. When his brother Alan and young nephew Jake move in with him, their contrasting personalities lead to comedic and often chaotic situations, creating a unique and hilarious dynamic in their household.</h6>
+                    <button class="watch-now">Watch Now</button>
+                </div>  
+        </div> 
+        <div class="card">
+            <img src="images/Comedy/Tv/adad.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">American Dad</h3>
+                <h6 class="des">Smith's family consists of four members which include an unusual goldfish that has the mind of a German football player andTArush Amxan an alien. Smith, along with the CIA, tries to save America from threats.</h6>
+                <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Comedy/Tv/family.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">Family guy</h3>
+            <h6 class="des">Family Guy is an animated sitcom that follows the adventures of the Griffin family, which includes the bumbling and irreverent Peter,TArush Amxan his wife Lois, and their three children. Known for its humor, pop culture references, and satirical take on American family life, it's a show that often pushes the boundaries of comedy.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Comedy/Tv/frnds.jpg" class="card-img">
+            <div class="card-body"> 
+            <h3 class="name">F.R.I.E.N.D.S</h3>
+            <h6 class="des">Friends is a beloved sitcom that revolves around the lives of six close-knit friends living in New York City. The show explores theirTArush Amxan personal and professional ups and downs, all while delivering humor and heartwarming moments.</h6>   
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Comedy/Tv/HowIMetYourMother.webp" class="card-img">
+            <div class="card-body">
+            <h3 class="name">How I Met Your Mother</h3>
+            <h6 class="des">How I Met Your Mother is a heartwarming sitcom that follows Ted Mosby's journey to find true love, as he narrates the story of how heTArush Amxan met his children's mother to his friends. It's filled with humor, friendship, and romantic adventures in New York City.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Comedy/Tv/rick.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">Rick and Morty</h3>
+            <h6 class="des">Rick and Morty is an animated series that follows the chaotic adventures of an eccentric and alcoholic scientist, Rick Sanchez, and hisTArush Amxan good-hearted but easily influenced grandson, Morty Smith. They travel through alternate dimensions and galaxies, encountering bizarre creatures and tackling mind-bending sci-fi scenarios while exploring themes of family, existentialism, and absurdity.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Comedy/Tv/the big.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">The Big Bang Theory</h3>
+            <h6 class="des">The Big Bang Theory is a beloved sitcom that follows the lives of socially awkward scientists and their interactions with the world,TArush Amxan combining humor and heart in the quest for love, friendship, and scientific breakthroughs.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Comedy/Tv/young sheldon.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">Young Sheldon</h3>
+            <h6 class="des">Young Sheldon offers a charming and witty glimpse into the early life of the brilliant and socially unconventional Sheldon Cooper asTArush Amxan he navigates the challenges of growing up in East Texas.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>  
+        </div>
+    <div class="card">
+        <img src="images/Action/Tv/lucifer.jpg" class="card-img">
+        <div class="card-body">
+        <h3 class="name">Lucifer</h3>
+        <h6 class="des">Lucifer follows the charismatic Lucifer Morningstar, who becomes a consultant for the LAPD while navigating his own identity as the Devil. TArush AmxanThe series blends crime-solving with supernatural elements, offering a witty, devilishly entertaining take on morality and redemption.</h6>
+        <button class="watch-now">Watch Now</button>
+        </div>  
+       </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <h2 class="Recommended">Horror</h2>
+    <br>
+    <div class="movie-list">
+        <div class="card-container">
+        <div class="card">
+            <img src="images/Horror/TV/ahs.jpg" class="card-img">
+                <div class="card-body">
+                    <h3 class="name">American Horror Story:Asylum</h3>
+                    <h6 class="des">American Horror Story is a chilling anthology series that explores different horrifying and supernatural tales with each season, TArush Amxandelving into the darkest aspects of human nature and the paranormal, providing spine-tingling scares and thought-provoking stories.</h6>
+                    <button class="watch-now">Watch Now</button>
+                </div>  
+        </div> 
+        <div class="card">
+            <img src="images/Horror/TV/all of.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">All Of are Dead</h3>
+                <h6 class="des">Trapped students must escape their high school which has become ground zero for a zombieTArush Amxan virus outbreak.</h6>
+                <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Horror/TV/blymanor.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">Haunting of Bly Manor</h3>
+            <h6 class="des">The Haunting of Bly Manor is a chilling tale of love and loss, as it explores the mysteries and horrorsTArush Amxan lurking within a secluded English manor, entwining the fates of its inhabitants.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Horror/TV/ahs2.jpg" class="card-img">
+            <div class="card-body"> 
+            <h3 class="name">American Horror Story:Coven</h3>
+            <h6 class="des">American Horror Story is a chilling anthology series that explores different horrifying and supernatural TArush Amxantales with each season, delving into the darkest aspects of human nature and the paranormal, providing spine-tingling scares and thought-provoking stories.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Horror/TV/haunt.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">Haunting of The Hill House</h3>
+            <h6 class="des">The Haunting of Hill House a family's traumatic past returns to haunt them when they confront the chillingTArush Amxan mysteries of their old and ominous home, entwined with unsettling supernatural occurrences that have lasting psychological consequences.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Horror/TV/the last of us.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">The Last Of Us</h3>
+            <h6 class="des">The Last of Us is a post-apocalyptic video game and TV series that revolves around the journey of Joel and Ellie,TArush Amxan two survivors in a world ravaged by a fungal infection. Together, they must navigate through dangerous landscapes, confront hostile survivors, and face moral dilemmas as they search for safety and a potential cure.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Horror/TV/resident.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">Resident Evil</h3>
+                <h6 class="des">Fourteen years after a deadly virus caused a global apocalypse, Jade Wesker fights for survival in a world TArush Amxanoverrun by infected creatures while being haunted by her past, her father, and what happened to her sister, Billie.</h6>
+                <button class="watch-now">Watch Now</button>
+        </div>
+        </div>
+        <div class="card">
+            <img src="images/Horror/TV/walking.jpg" class="card-img">
+            <div class="card-body">
+            <h3 class="name">The Walking Dead</h3>
+            <h6 class="des">The Walking Dead depicts a post-apocalyptic world where survivors must navigate through hordes of zombies andTArush Amxan confront the dark sides of human nature to stay alive.</h6>
+            <button class="watch-now">Watch Now</button>
+        </div>  
+    </div>
+    <div class="card">
+        <img src="images/Horror/TV/wed.jpg" class="card-img">
+        <div class="card-body">
+        <h3 class="name">Wednesday</h3>
+            <h6 class="des">While attending Nevermore Academy, Wednesday Addams attempts to master her emerging psychic ability, thwartTArush Amxan a killing spree and solve the mystery that embroiled her parents 25 years ago.</h6>
+            <button class="watch-now">Watch Now</button>
+    </div>  
+</div>
+<div class="card">
+    <img src="images/Drama/Tv/archive.jpg" class="card-img">
+    <div class="card-body">
+    <h3 class="name">Archive 81</h3>
+        <h6 class="des">Archive 81 is a supernatural horror series that follows an archivist who uncovers mysterious and terrifying audio TArush Amxantapes that reveal a hidden world of paranormal events and dark forces. As he delves deeper into the tapes, he becomes entangled in a supernatural conspiracy that threatens his sanity and reality itself.</h6>
+        <button class="watch-now">Watch Now</button>
+</div>
+</div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.svg" alt="Footer Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Subscriber Agreement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">UK & EU Privacy Rights</a></li>
+                    <li><a href="#">Cookies Policy</a></li>
+                    <li><a href="#">Intrest Based Adds</a></li>
+                    <li><a href="#">Supported Devices</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <br>
+            <div class="footer-social">
+                <a href="#" target="_blank"><img src="images/icons8-facebook-50.png" ></a>
+                <a href="#" target="_blank"><img src="images/icons8-twitter-60.png" ></a>
+                <a href="#" target="_blank"><img src="images/icons8-instagram-96.png" ></a>
+            </div>
+            <p class="lines"><font color="darkgray">Content and platform availability may vary by region.</font></p>
+            <br>
+            <p class="lines"><font color="darkgray">©2023 Disney and its related entities. All Rights Reserved.</font></p>
+            <br>
+            <p class="lastline">Disney All Rights Reserved.</p>
+        </div>
+        <br>
+    </footer>
+    <script src="app2.js"></script>
+    <script>
+    const logo = document.getElementById("logo-img");
+    logo.addEventListener("click", () => {
+    window.location.href = "home.html";
+});
+
+document.querySelectorAll(".watch-now").forEach(function(button) {
+    button.addEventListener("click", function() {
+        const link = button.getAttribute("data-link");
+        if (link) {
+            window.open(link, "_blank"); 
+        }
+    });
+});
+
+    </script>
+</body>
+</html>

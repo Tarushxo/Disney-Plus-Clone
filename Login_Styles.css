@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    background: #1A1D29;
+    position: relative;
+    font-family: Avenir,sans-serif;
+}
+.log{
+    margin-top: 30px;
+    margin-left: 600px;
+    color: #f9f9f9;
+    font-size: 24px;
+
+}
+
+.para{
+    color: #f9f9f9;
+    margin-left: 600px;
+    line-height: 1.7;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+.email-input{
+
+    margin-left: 600px;
+    height: 50px;
+    width: 374px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #f9f9f91a;
+    color: #cacaca;
+    font-size: 18px;
+    font-family: Avenir,sans-serif;
+
+}
+.sub-btn2{
+    background: #0063e5;
+    height: 48px;
+    width:374px;
+    padding: 16px 24px;
+    color: #f9f9f9;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-family: Avenir,sans-serif;
+    font-size: 18px;
+    margin-left: 600px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+hr{
+    height: 1px;
+    margin-top: 55px;
+    color: #333333;
+}
+
+.new-user{
+    margin-left: 600px;
+    margin-bottom: 12px;
+}
+
+.new-user p{
+    color: #cacaca;
+}
+
+.new-user a{
+    color: #f9f9f9;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    background: #1A1D29;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9f9f9;
+    }
+.nav-links a {
+    color: #fff;
+}
+.logo {
+    font-size: 30px;
+}
+.menu {
+    display: flex;
+    gap: 0;
+    font-size: 18px;
+    background:#040714;
+}
+
+.menu li {
+    padding: 2px 5px;
+}
+
+li{
+    list-style: none;
+}
+
+.sub-btn3{
+  background: #0063e5;
+  height: 50px;
+  width:160px;
+  padding: 0 20px;
+  color: #f9f9f9;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight:lighter;
+  font-size: 18px;
+  margin: 0;
+  font-family: Avenir,sans-serif;
+  padding: 8px 14px;
+}
+
+.sub-btn2 a{
+  color:#fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 70px;
+}
+
+footer {
+    background-color: #0E0B14;
+    color: #f9f9f9;
+    padding: 0;
+    text-align: center;
+    max-height: 270px;
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    padding-top: 15px;
+    margin-top: 12px;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+    font-family: Avenir-Roman,sans-serif;
+    font-weight: lighter;
+    font-size:12px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.signup-form {
+    background: #1A1D29;
+    border-radius: 10px;
+    padding: 20px; 
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.signup-form h2 {
+    color: #f9f9f9;
+    font-size: 24px;
+    font-family: Avenir,sans-serif;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 20px; 
+
+}
+
+.signup-form input {
+    height: 50px;
+    width: 374px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #f9f9f91a;
+    padding: 12px;
+    color: #f9f9f9;
+    margin-top: 4px; 
+    margin-bottom: 5px;
+    color: #cacaca;
+    font-size: 18px;
+    font-family: Avenir,sans-serif;
+}
+
+.signup-form .sub-btn3 {
+    background: #0063e5;
+    height: 48px;
+    width: 374px;
+    padding: 16px 24px;
+    color: #f9f9f9;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.signup-form p{
+    color: #cacaca;
+}
+
+#login-link {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+#login-form{
+    margin-bottom: 60px;
+}
+
+#signup-form{
+    margin-top: 10px;
+}
